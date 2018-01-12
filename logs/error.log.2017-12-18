@@ -1,0 +1,15 @@
+[2017-12-18 22:34:43.497][ERROR][main]org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:report[42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.example.demo.UserController required a bean of type 'com.crady.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.crady.service.UserService' in your configuration.
+

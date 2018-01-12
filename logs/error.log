@@ -1,0 +1,21 @@
+[2017-12-21 10:47:35.634][ERROR][restartedMain]org.springframework.boot.bind.PropertiesConfigurationFactory:checkForBindingErrors[350] - Properties configuration failed validation
+[2017-12-21 10:47:35.635][ERROR][restartedMain]org.springframework.boot.bind.PropertiesConfigurationFactory:checkForBindingErrors[352] - Field error in object 'management' on field 'security.enabled': rejected value []; codes [typeMismatch.management.security.enabled,typeMismatch.security.enabled,typeMismatch.enabled,typeMismatch.boolean,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [management.security.enabled,security.enabled]; arguments []; default message [security.enabled]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'boolean' for property 'security.enabled'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [boolean]]
+[2017-12-21 10:47:35.657][ERROR][restartedMain]org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:report[42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target org.springframework.boot.actuate.autoconfigure.ManagementServerProperties@3e262ab failed:
+
+    Property: management.security.enabled
+    Value: 
+    Reason: Failed to convert property value of type 'java.lang.String' to required type 'boolean' for property 'security.enabled'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [boolean]
+
+
+Action:
+
+Update your application's configuration
+
